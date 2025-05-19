@@ -1,0 +1,124 @@
+@font-face { font-family: KaushanScript; src: url('../fonts/KaushanScript-Regular.otf'); } 
+/*Billing Page*/
+.loginuser{
+	color: red;
+	font-family: consolas;
+	font-size: 1em;
+	text-transform: uppercase;
+
+}
+.headtext{
+	font-family: KaushanScript;
+	text-decoration: overline underline 2px black;
+	text-align: center;
+}
+.wrapper{
+ width:900px;
+ margin:0 auto;
+ border:3px solid rgba(0,0,0,0);
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+ border-radius:5px;
+-webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+-moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+ box-shadow:0 0 18px rgba(0,0,0,0.4);
+ margin-top:2%;
+}
+
+.header { 
+	width:900px; 
+	height:100px;
+}
+.header a{
+	text-decoration: none;
+	color: blue;
+	text-transform: uppercase;
+}
+table th {background:#999;}
+
+.billingform {
+ border:3px solid rgba(0,0,0,0);
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+ border-radius:5px;
+-webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+-moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+ box-shadow:0 0 18px rgba(0,0,0,0.4);
+ margin-top:5%;
+}
+.billingform h1, #h1font{
+	text-align: center;
+	font-family: Helvetica;
+	text-transform:uppercase;
+
+}
+#billingform{
+	margin-left: 25%;
+}
+#billingform p,input{
+	font-family: Consolas;
+}
+#billingform input:focus {
+    background-color: #696969;
+    color: #ffffff;
+}
+#billingform input[type=submit],input[type=reset] {
+    margin-top: 1em;
+    width:auto;
+}
+#billingform input[type=submit]:hover,input[type=reset]:hover {
+    opacity: 0.8;
+}
+ #submitBtn,#billingform input[type=submit] {
+  	background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    font-family: Consolas;
+    font-size: 1em;
+
+}
+ #redBtn,#billingform input[type=reset] {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    font-family: Consolas;
+    font-size: 1em;
+}
+
+#ryt {
+ border:3px solid rgba(0,0,0,0);
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+ border-radius:5px;
+-webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+-moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+ box-shadow:0 0 18px rgba(0,0,0,0.4);
+ margin-top:5%;
+}
+#ryt th ,#ryt td{
+	text-align: center;
+}
+.header ul li{
+    list-style:none;
+    float:left; 
+    margin-top:30px; 
+    margin-left:10px;
+}
+
+.content table{ 
+	margin:0 auto;
+	text-align: center; 
+}
+
+#date{
+	margin-left: 5%;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: Arial;
+}
